@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    flex-direction: column;
+}
+.datepicker{
+    display: flex;
+    width: 800px;
+    height: 100px;
+    margin-left: 600px;
+    background-color: rgb(52, 224, 46);
+    justify-content: center;
+    border-radius: 40px;
+    padding-top: 30px;
+}
+.datepicker .date1 #date1{
+    height: 60px;
+    border-radius: 40px;
+    width: 380px;
+    font-size: 40px;
+    background-color: brown;
+    color: beige;
+}
+.datepicker .btn1 #btn{
+    height: 60px;
+    width: 180px;
+    font-size: 40px;
+    margin-left: 5px;
+    border-radius: 40px;
+}
+.calculate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.calculate .box{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: rgb(122, 29, 29);
+    text-align: center;
+    border-radius: 40px;
+}
+.calculate .box span{
+    font-size: 30px;
+    color: aliceblue;    
+}
+
